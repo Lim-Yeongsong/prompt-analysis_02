@@ -1,0 +1,63 @@
+=================================================================
+  추가 분석 — Cut16 (FI≥16, FD≤15)
+=================================================================
+
+## A. Axis 1: 맥락/객체 키워드 수 및 비율 (FI vs FD)
+
+### A-1. 프롬프트 수준 (prompt-level)
+  맥락키워드수 (FI vs FD): FI M=3.238±3.954 (n=63), FD M=2.246±3.445 (n=57), U=2118.0, p=0.0795, r=-0.180 [n.s.]
+  객체키워드수 (FI vs FD): FI M=1.683±2.833 (n=63), FD M=1.228±2.220 (n=57), U=2094.5, p=0.0910, r=-0.167 [n.s.]
+  맥락비율 (FI vs FD): FI M=0.596±0.356 (n=52), FD M=0.617±0.420 (n=39), U=946.5, p=0.5807, r=0.067 [n.s.]
+  객체비율 (FI vs FD): FI M=0.404±0.356 (n=52), FD M=0.383±0.420 (n=39), U=1081.5, p=0.5807, r=-0.067 [n.s.]
+
+### A-2. 참가자 수준 (participant-level)
+  평균맥락키워드수 (FI vs FD): FI M=4.121±3.924 (n=16), FD M=2.994±2.790 (n=13), U=115.0, p=0.6451, r=-0.106 [n.s.]
+  평균객체키워드수 (FI vs FD): FI M=1.710±2.320 (n=16), FD M=1.257±1.248 (n=13), U=112.0, p=0.7411, r=-0.077 [n.s.]
+  평균맥락비율 (FI vs FD): FI M=0.664±0.218 (n=16), FD M=0.672±0.269 (n=12), U=97.0, p=0.9814, r=-0.010 [n.s.]
+  평균객체비율 (FI vs FD): FI M=0.336±0.218 (n=16), FD M=0.328±0.269 (n=12), U=95.0, p=0.9814, r=0.010 [n.s.]
+
+### A-3. GEFT 연속 상관 (Spearman)
+  GEFT ↔ 평균맥락키워드수: ρ=0.131, p=0.4979, n=29 [n.s.]
+  GEFT ↔ 평균객체키워드수: ρ=0.119, p=0.5391, n=29 [n.s.]
+  GEFT ↔ 평균맥락비율: ρ=0.047, p=0.8111, n=28 [n.s.]
+  GEFT ↔ 평균객체비율: ρ=-0.049, p=0.8046, n=28 [n.s.]
+
+## B. Phase별 맥락/객체 키워드 차이
+
+### B-1. 전체 (Ideation vs Final)
+  맥락키워드수 (Ideation vs Final): Ideation M=2.846±4.010 (n=78), Final M=2.619±3.215 (n=42), U=1602.0, p=0.8396, r=0.022 [n.s.]
+  객체키워드수 (Ideation vs Final): Ideation M=1.500±2.984 (n=78), Final M=1.405±1.515 (n=42), U=1400.0, p=0.1591, r=0.145 [n.s.]
+  맥락비율 (Ideation vs Final): Ideation M=0.613±0.398 (n=59), Final M=0.590±0.358 (n=32), U=1012.5, p=0.5612, r=-0.073 [n.s.]
+  객체비율 (Ideation vs Final): Ideation M=0.387±0.398 (n=59), Final M=0.410±0.358 (n=32), U=875.5, p=0.5612, r=0.073 [n.s.]
+
+### B-2. FI 그룹 내 (Ideation vs Final)
+  맥락키워드수 (FI/Ideation vs FI/Final): FI/Ideation M=3.595±4.272 (n=37), FI/Final M=2.731±3.471 (n=26), U=548.5, p=0.3399, r=-0.140 [n.s.]
+  객체키워드수 (FI/Ideation vs FI/Final): FI/Ideation M=1.649±3.482 (n=37), FI/Final M=1.731±1.564 (n=26), U=352.5, p=0.0616, r=0.267 [n.s.]
+  맥락비율 (FI/Ideation vs FI/Final): FI/Ideation M=0.655±0.372 (n=33), FI/Final M=0.492±0.309 (n=19), U=409.5, p=0.0650, r=-0.306 [n.s.]
+  객체비율 (FI/Ideation vs FI/Final): FI/Ideation M=0.345±0.372 (n=33), FI/Final M=0.508±0.309 (n=19), U=217.5, p=0.0650, r=0.306 [n.s.]
+
+### B-3. FD 그룹 내 (Ideation vs Final)
+  맥락키워드수 (FD/Ideation vs FD/Final): FD/Ideation M=2.171±3.680 (n=41), FD/Final M=2.438±2.851 (n=16), U=264.0, p=0.2286, r=0.195 [n.s.]
+  객체키워드수 (FD/Ideation vs FD/Final): FD/Ideation M=1.366±2.488 (n=41), FD/Final M=0.875±1.310 (n=16), U=339.0, p=0.8312, r=-0.034 [n.s.]
+  맥락비율 (FD/Ideation vs FD/Final): FD/Ideation M=0.559±0.429 (n=26), FD/Final M=0.732±0.390 (n=13), U=133.5, p=0.2719, r=0.210 [n.s.]
+  객체비율 (FD/Ideation vs FD/Final): FD/Ideation M=0.441±0.429 (n=26), FD/Final M=0.268±0.390 (n=13), U=204.5, p=0.2719, r=-0.210 [n.s.]
+
+## C. Phase별 발산/수렴 (임베딩 기반)
+
+### C-1. 전체 (Ideation vs Final)
+  연속거리(턴간) (Ideation vs Final): Ideation M=0.416±0.171 (n=49), Final M=0.391±0.164 (n=42), U=1063.0, p=0.7897, r=-0.033 [n.s.]
+  첫프롬프트로부터거리 (Ideation vs Final): Ideation M=0.266±0.247 (n=78), Final M=0.396±0.162 (n=42), U=1149.0, p=0.0072, r=0.299 [**]
+
+### C-2. FI 그룹 내 (Ideation vs Final)
+  연속거리 (FI/Ideation vs FI/Final): FI/Ideation M=0.424±0.189 (n=21), FI/Final M=0.386±0.159 (n=26), U=290.0, p=0.7240, r=-0.062 [n.s.]
+  첫프롬프트거리 (FI/Ideation vs FI/Final): FI/Ideation M=0.242±0.248 (n=37), FI/Final M=0.402±0.175 (n=26), U=290.0, p=0.0078, r=0.397 [**]
+
+### C-3. FD 그룹 내 (Ideation vs Final)
+  연속거리 (FD/Ideation vs FD/Final): FD/Ideation M=0.410±0.159 (n=28), FD/Final M=0.399±0.176 (n=16), U=221.0, p=0.9514, r=0.013 [n.s.]
+  첫프롬프트거리 (FD/Ideation vs FD/Final): FD/Ideation M=0.288±0.247 (n=41), FD/Final M=0.386±0.143 (n=16), U=268.0, p=0.2906, r=0.183 [n.s.]
+
+### C-4. 같은 Phase 내 FI vs FD
+  ideation_연속거리 (FI vs FD): FI M=0.424±0.189 (n=21), FD M=0.410±0.159 (n=28), U=277.0, p=0.7389, r=0.058 [n.s.]
+  ideation_첫프롬프트거리 (FI vs FD): FI M=0.242±0.248 (n=37), FD M=0.288±0.247 (n=41), U=625.5, p=0.1847, r=0.175 [n.s.]
+  final_연속거리 (FI vs FD): FI M=0.386±0.159 (n=26), FD M=0.399±0.176 (n=16), U=188.0, p=0.6135, r=0.096 [n.s.]
+  final_첫프롬프트거리 (FI vs FD): FI M=0.402±0.175 (n=26), FD M=0.386±0.143 (n=16), U=217.0, p=0.8258, r=-0.043 [n.s.]
