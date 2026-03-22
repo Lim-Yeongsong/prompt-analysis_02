@@ -1,0 +1,54 @@
+============================================================
+  FI/FD 프레임워크 분포 차이 분석 — output_cut16
+============================================================
+
+## 1. CO-STAR Framework
+
+costar_count: FI M=3.53±1.79, FD M=2.88±1.72
+  Mann-Whitney U=1979.5, p=0.0727 n.s.
+
+  GEFT ↔ costar_count Spearman: ρ=0.081, p=0.3776
+
+  costar_context: χ²=0.24, p=0.6249 [n.s.]
+    FI: 55.8%, FD: 49.4%
+  costar_objective: χ²=3.74, p=0.0530 [n.s.]
+    FI: 97.7%, FD: 84.4%
+  costar_style: χ²=1.92, p=0.1655 [n.s.]
+    FI: 60.5%, FD: 45.5%
+  costar_tone: χ²=0.00, p=1.0000 [n.s.]
+    FI: 32.6%, FD: 31.2%
+  costar_audience: χ²=2.24, p=0.1348 [n.s.]
+    FI: 39.5%, FD: 24.7%
+  costar_response: χ²=1.74, p=0.1871 [n.s.]
+    FI: 67.4%, FD: 53.2%
+
+## 2. ResearchRubrics Complexity
+
+  rr_conceptual_scope: χ²=9.10, p=0.0106, dof=2 [*]
+  rr_logical_nesting: χ²=3.85, p=0.1458, dof=2 [n.s.]
+  rr_exploratory: χ²=2.67, p=0.2631, dof=2 [n.s.]
+  GEFT ↔ 개념범위 Spearman: ρ=0.192, p=0.0355
+  GEFT ↔ 논리중첩 Spearman: ρ=0.113, p=0.2191
+  GEFT ↔ 탐색성 Spearman: ρ=0.051, p=0.5772
+
+## 3. Tian et al. Design Prompt Taxonomy
+
+  tian_task: FI=93.0%, FD=81.8%, χ²=2.00, p=0.1571 [n.s.]
+  tian_persona: FI=0.0%, FD=0.0% (chi-sq N/A)
+  tian_context: FI=60.5%, FD=54.5%, χ²=0.19, p=0.6633 [n.s.]
+  tian_preference: FI=51.2%, FD=40.3%, χ²=0.92, p=0.3362 [n.s.]
+  tian_format: FI=67.4%, FD=49.4%, χ²=2.97, p=0.0851 [n.s.]
+  tian_sample: FI=0.0%, FD=3.9% (chi-sq N/A)
+  tian_regenerate: FI=20.9%, FD=26.0%, χ²=0.16, p=0.6917 [n.s.]
+  tian_visualize: FI=76.7%, FD=61.0%, χ²=2.40, p=0.1216 [n.s.]
+  tian_method: FI=18.6%, FD=11.7%, χ²=0.59, p=0.4420 [n.s.]
+  tian_process: FI=9.3%, FD=2.6%, χ²=1.39, p=0.2383 [n.s.]
+  tian_principle: FI=27.9%, FD=19.5%, χ²=0.69, p=0.4054 [n.s.]
+  tian_constraint: FI=76.7%, FD=51.9%, χ²=6.12, p=0.0134 [*]
+  tian_explain: FI=2.3%, FD=5.2%, χ²=0.08, p=0.7811 [n.s.]
+  tian_reflect: FI=0.0%, FD=3.9% (chi-sq N/A)
+  tian_limitation: FI=0.0%, FD=0.0% (chi-sq N/A)
+
+  tian_count: FI M=5.05±2.10, FD M=4.12±2.10
+  Mann-Whitney U=2066.0, p=0.0232 *
+  GEFT ↔ tian_count Spearman: ρ=0.104, p=0.2596
