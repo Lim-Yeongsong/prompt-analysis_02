@@ -1,5 +1,5 @@
 # 분석 결과 요약 — GEFT 16점=FD (cut16)
-**생성**: 2026-03-22 02:02:07
+**생성**: 2026-03-22 12:16:03
 
 ## 축 1: GEFT 점수에 따른 프롬프트 특성
 - U=971.5, p=0.8225399940534514, r=0.027527527527527518 [n.s.]
@@ -36,40 +36,46 @@
 - ρ=-0.22356286509306625, p=0.2436977840159949, n=29 [n.s.]
 
 ## 축 2: Phase에 따른 구조적 차이
-- U=213.0, p=0.10174884383920786, r=-0.3229813664596273 [n.s.]
-- U=289.0, p=0.5080780355725145, r=0.10802469135802473 [n.s.]
-- U=218.0, p=0.8162680144032584, r=0.04385964912280704 [n.s.]
-- U=548.5, p=0.4228849382377545, r=0.11674718196457323 [n.s.]
-- U=77.0, p=0.8888966092539542, r=0.03749999999999998 [n.s.]
-- U=45.0, p=0.06901681800293338, r=0.4375 [n.s.]
+- U=409.5, p=0.06500379023496096, r=-0.30622009569377995 [n.s.]
+- U=133.5, p=0.2718730370163145, r=0.2100591715976331 [n.s.]
+- U=464.5, p=0.8232379946300474, r=0.03430353430353428 [n.s.]
+- U=272.5, p=0.3286336367048519, r=0.16920731707317072 [n.s.]
+- U=71.5, p=0.5634100973511929, r=0.1333333333333333 [n.s.]
+- U=61.0, p=0.27575784782750923, r=0.2606060606060606 [n.s.]
 
 ## 축 3: 워크숍 그룹 & 전공
 - U=12545.0, p=5.246438776059393e-15, r=N/A [?]
 - W=23.0, p=0.2734375
-- U=104.0, p=0.21550895222294442, r=-0.30000000000000004 [n.s.]
+- U=87.0, p=0.8355415242251893, r=-0.05454545454545445 [n.s.]
 - U=106.0, p=0.9475534957826844, r=-0.019230769230769162 [n.s.]
 - U=96.0, p=1.0, r=0.0 [n.s.]
 
 ## 출력 파일
-- `analysis_summary.md` (3,673 bytes)
+- `analysis_summary.md` (3,963 bytes)
 - `axis1_1_umap_clustering.png` (147,880 bytes)
 - `axis1_2_keywords.png` (233,834 bytes)
-- `axis1_3_charcount.png` (129,203 bytes)
+- `axis1_3_charcount.png` (129,287 bytes)
 - `axis1_4_prompttype.png` (33,339 bytes)
-- `axis1_5_imageusage.png` (36,850 bytes)
+- `axis1_5_imageusage.png` (36,713 bytes)
 - `axis1_6_divergence.png` (117,684 bytes)
 - `axis1_7_osivq.png` (335,206 bytes)
-- `axis2_1_phase_umap.png` (118,454 bytes)
-- `axis2_2_phase_keywords.png` (67,083 bytes)
-- `axis2_3_phase_charcount.png` (78,123 bytes)
-- `axis2_4_phase_prompttype.png` (66,117 bytes)
-- `axis2_5_phase_image.png` (60,643 bytes)
-- `axis2_6_phase_transition.png` (40,489 bytes)
-- `axis2_7_phase_distance.png` (41,696 bytes)
-- `axis3_1_group_similarity.png` (158,012 bytes)
-- `axis3_2_group_discussion.png` (109,695 bytes)
-- `axis3_3_major.png` (169,593 bytes)
+- `axis2_1_phase_umap.png` (118,967 bytes)
+- `axis2_2_phase_keywords.png` (66,904 bytes)
+- `axis2_3_phase_charcount.png` (79,375 bytes)
+- `axis2_4_phase_prompttype.png` (66,092 bytes)
+- `axis2_5_phase_image.png` (60,205 bytes)
+- `axis2_6_phase_transition.png` (39,751 bytes)
+- `axis2_7_phase_distance.png` (41,582 bytes)
+- `axis3_1_group_similarity.png` (158,023 bytes)
+- `axis3_2_group_discussion.png` (109,081 bytes)
+- `axis3_3_major.png` (169,563 bytes)
 - `embeddings.npy` (2,949,248 bytes)
+- `framework_1_costar.png` (304,667 bytes)
+- `framework_2_rubrics.png` (89,622 bytes)
+- `framework_3_tian.png` (215,327 bytes)
+- `framework_stats.txt` (2,189 bytes)
+- `framework_summary_heatmap.png` (99,257 bytes)
 - `participant_analysis.csv` (4,271 bytes)
+- `prompt_coded.csv` (14,016 bytes)
 - `prompt_preprocessed.csv` (161,633 bytes)
 - `selection_log.csv` (1,505 bytes)

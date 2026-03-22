@@ -1,5 +1,5 @@
 # 분석 결과 요약 — GEFT 16점=FI (cut17)
-**생성**: 2026-03-22 02:02:07
+**생성**: 2026-03-22 12:16:03
 
 ## 축 1: GEFT 점수에 따른 프롬프트 특성
 - U=946.5, p=0.58066535864066, r=0.06656804733727806 [n.s.]
@@ -51,25 +51,31 @@
 - U=96.0, p=1.0, r=0.0 [n.s.]
 
 ## 출력 파일
-- `analysis_summary.md` (3,682 bytes)
+- `analysis_summary.md` (3,972 bytes)
 - `axis1_1_umap_clustering.png` (152,548 bytes)
 - `axis1_2_keywords.png` (230,715 bytes)
-- `axis1_3_charcount.png` (132,910 bytes)
+- `axis1_3_charcount.png` (132,721 bytes)
 - `axis1_4_prompttype.png` (33,339 bytes)
-- `axis1_5_imageusage.png` (38,438 bytes)
+- `axis1_5_imageusage.png` (38,097 bytes)
 - `axis1_6_divergence.png` (117,618 bytes)
 - `axis1_7_osivq.png` (336,426 bytes)
 - `axis2_1_phase_umap.png` (118,967 bytes)
-- `axis2_2_phase_keywords.png` (66,630 bytes)
-- `axis2_3_phase_charcount.png` (79,755 bytes)
+- `axis2_2_phase_keywords.png` (66,851 bytes)
+- `axis2_3_phase_charcount.png` (79,351 bytes)
 - `axis2_4_phase_prompttype.png` (66,092 bytes)
-- `axis2_5_phase_image.png` (60,203 bytes)
-- `axis2_6_phase_transition.png` (40,016 bytes)
-- `axis2_7_phase_distance.png` (41,651 bytes)
+- `axis2_5_phase_image.png` (60,012 bytes)
+- `axis2_6_phase_transition.png` (40,343 bytes)
+- `axis2_7_phase_distance.png` (41,683 bytes)
 - `axis3_1_group_similarity.png` (158,023 bytes)
-- `axis3_2_group_discussion.png` (109,189 bytes)
-- `axis3_3_major.png` (169,864 bytes)
+- `axis3_2_group_discussion.png` (108,935 bytes)
+- `axis3_3_major.png` (169,544 bytes)
 - `embeddings.npy` (2,949,248 bytes)
+- `framework_1_costar.png` (304,587 bytes)
+- `framework_2_rubrics.png` (89,622 bytes)
+- `framework_3_tian.png` (214,709 bytes)
+- `framework_stats.txt` (2,189 bytes)
+- `framework_summary_heatmap.png` (99,257 bytes)
 - `participant_analysis.csv` (4,271 bytes)
+- `prompt_coded.csv` (14,016 bytes)
 - `prompt_preprocessed.csv` (161,633 bytes)
 - `selection_log.csv` (1,505 bytes)
