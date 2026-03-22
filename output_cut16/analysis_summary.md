@@ -1,5 +1,5 @@
 # 분석 결과 요약 — GEFT 16점=FD (cut16)
-**생성**: 2026-03-22 01:36:44
+**생성**: 2026-03-22 02:02:07
 
 ## 축 1: GEFT 점수에 따른 프롬프트 특성
 - U=971.5, p=0.8225399940534514, r=0.027527527527527518 [n.s.]
@@ -51,23 +51,24 @@
 - U=96.0, p=1.0, r=0.0 [n.s.]
 
 ## 출력 파일
-- `axis1_1_umap_clustering.png` (142,839 bytes)
-- `axis1_2_keywords.png` (189,286 bytes)
-- `axis1_3_charcount.png` (116,065 bytes)
-- `axis1_4_prompttype.png` (29,138 bytes)
-- `axis1_5_imageusage.png` (29,150 bytes)
-- `axis1_6_divergence.png` (87,062 bytes)
-- `axis1_7_osivq.png` (295,920 bytes)
-- `axis2_1_phase_umap.png` (117,959 bytes)
-- `axis2_2_phase_keywords.png` (63,391 bytes)
-- `axis2_3_phase_charcount.png` (73,385 bytes)
-- `axis2_4_phase_prompttype.png` (58,610 bytes)
-- `axis2_5_phase_image.png` (57,800 bytes)
-- `axis2_6_phase_transition.png` (37,510 bytes)
-- `axis2_7_phase_distance.png` (35,111 bytes)
-- `axis3_1_group_similarity.png` (142,195 bytes)
-- `axis3_2_group_discussion.png` (91,737 bytes)
-- `axis3_3_major.png` (152,984 bytes)
+- `analysis_summary.md` (3,673 bytes)
+- `axis1_1_umap_clustering.png` (147,880 bytes)
+- `axis1_2_keywords.png` (233,834 bytes)
+- `axis1_3_charcount.png` (129,203 bytes)
+- `axis1_4_prompttype.png` (33,339 bytes)
+- `axis1_5_imageusage.png` (36,850 bytes)
+- `axis1_6_divergence.png` (117,684 bytes)
+- `axis1_7_osivq.png` (335,206 bytes)
+- `axis2_1_phase_umap.png` (118,454 bytes)
+- `axis2_2_phase_keywords.png` (67,083 bytes)
+- `axis2_3_phase_charcount.png` (78,123 bytes)
+- `axis2_4_phase_prompttype.png` (66,117 bytes)
+- `axis2_5_phase_image.png` (60,643 bytes)
+- `axis2_6_phase_transition.png` (40,489 bytes)
+- `axis2_7_phase_distance.png` (41,696 bytes)
+- `axis3_1_group_similarity.png` (158,012 bytes)
+- `axis3_2_group_discussion.png` (109,695 bytes)
+- `axis3_3_major.png` (169,593 bytes)
 - `embeddings.npy` (2,949,248 bytes)
 - `participant_analysis.csv` (4,271 bytes)
 - `prompt_preprocessed.csv` (161,633 bytes)

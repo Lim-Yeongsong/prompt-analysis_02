@@ -25,10 +25,11 @@ def setup_font():
         if f.startswith('fontlist'):
             os.remove(os.path.join(cache_dir, f))
     fm._load_fontmanager(try_read_cache=False)
-    plt.rcParams['font.family'] = 'NanumGothic'
-    plt.rcParams['axes.unicode_minus'] = False
+    # seaborn set_style resets font — call it FIRST, then override
     sns.set_style("whitegrid")
     sns.set_context("paper", font_scale=1.1)
+    plt.rcParams['font.family'] = 'NanumGothic'
+    plt.rcParams['axes.unicode_minus'] = False
 
 setup_font()
 
